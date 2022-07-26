@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+
+.titles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    height: 30vh;
+}
+.pokemon{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.cards_list{
+    width: 200px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+}
+
+.info{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
